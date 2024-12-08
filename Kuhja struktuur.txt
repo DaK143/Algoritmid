@@ -1,0 +1,42 @@
+1. Min-kuhi ja Max-kuhi omadused
+
+Min-kuhi
+
+- Igas sõlmes (välja arvatud juursõlm) on väärtus suurem või võrdne tema vanema väärtusega. See tagab, et min-kuhi juursõlmes paikneb alati väikseim element.
+
+Max-kuhi
+
+- Igas sõlmes (välja arvatud juursõlm) on väärtus väiksem või võrdne tema vanema väärtusega. See tähendab, et max-kuhi juursõlmes paikneb alati suurim element.
+
+2. Aja- ja ruumikomplekssus
+
+Ajakompleksus
+
+-Lisamine (push): ajakompleksus O(log n), kus n on kuhja suurus.
+
+-Eemaldamine (pop): ajakompleksus O(log n).
+
+-Kuhja ehitamine (heapify): ajakompleksus O(n).
+
+Ruumikomplekssus
+
+- Ruumikompleksus O(n), kuna igale elemendile on vaja salvestusruumi sõlme ja seotud andmete jaoks (nt võtmed).
+
+3. Kuhja struktuurid andmete sorteerimisel ja prioriteetjärjekordade haldamisel
+
+Andmete sorteerimine
+
+-Min-kuhid sobivad hästi sorteerimisülesannete jaoks.
+
+-Heap Sort on tuntud algoritm, mis kasutab min-kuhi andmete sorteerimiseks.
+
+-Kuhjasort on stabiilne, säilitades võrdsete elementide algse järjestuse.
+
+Prioriteetjärjekorra haldamine
+
+-Kuhja struktuurid on tõhusad prioriteetjärjekordade haldamisel.
+
+-Min-kuhi võimaldab kiiret juurdepääsu väikseimale elemendile, samal ajal kui max-kuhi tagab kiire juurdepääsu suurimale elemendile.
+
+-Kuhja kasutamine on oluline paljudes algoritmides, nagu Dijkstra algoritm ja Huffmani koodid, kus prioriteetide haldamine mängib olulist rolli.
+

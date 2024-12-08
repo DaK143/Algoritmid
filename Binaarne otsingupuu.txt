@@ -1,0 +1,17 @@
+1. Binaarne otsingupuu (BST)
+
+-BST on binaarpuu, kus iga sõlme vasaku alampuu kõik elemendid on väiksemad kui sõlme enda väärtus ning parema alampuu elemendid suuremad.
+
+-Iga alampuu BST-s peab samuti vastama binaarse otsingupuu tingimustele.
+
+2. Ajakompleksus
+
+-Kui puu on tasakaalus, on otsingu, lisamise ja eemaldamise operatsioonide ajakompleksus O(log n), kus n on puu elementide arv.
+
+-Kui aga puu muutub tasakaalustamata (nt kõik elemendid lisatakse kasvavas järjestuses), võib ajakompleksus halveneda O(n)-ks.
+
+3. Tasakaalustamine
+
+-Optimaalseks toimimiseks on oluline puu tasakaalustamine. Tasakaalustamine on vajalik, kui sõlme kahe alampuu kõrgus erineb rohkem kui ühe võrra.
+
+-Tasakaalustatud puude näited on AVL-puu ja punane-must puu, mis tagavad O(log n) ajakompleksuse ka halvimatel juhtudel.

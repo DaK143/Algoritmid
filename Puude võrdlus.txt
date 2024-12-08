@@ -1,0 +1,29 @@
+AVL-puu ja Punase-Musta puu võrdlus
+
+1. AVL-puu
+
+-AVL-puu on tasakaalustatud binaarne otsingupuu, mis tagab, et iga sõlme vasaku ja parema alampuu kõrguste erinevus ei ületa ühte.
+
+-Puu tasakaalu tagamiseks kasutatakse tasakaalutegurit, mis arvutatakse vasaku ja parema alampuu kõrguse vahena. Tasakaaluteguri võimalikud väärtused on -1, 0 ja 1.
+
+-Kui tasakaalutegur ületab lubatud piiri, tehakse sõlmede pööramisi, et taastada tasakaal.
+
+2. Punane-Must puu
+
+-Punane-must puu kasutab tasakaalu tagamiseks sõlmede värve ning reegleid, mis välistavad tasakaalustamatuse. Selle tulemusena on puu alati ligikaudu tasakaalustatud.
+
+-Punase-musta puu reeglid on vähem ranged kui AVL-puu omad, mistõttu on sellel puul vähem pööramisi ja sisestamine ning kustutamine on üldjuhul kiirem.
+
+3. Kasutusjuhtumid
+
+AVL-puu
+
+-Sobib hästi rakendustes, kus andmete otsimine toimub tihti ja kiire otsingutulemus on kriitiline.
+
+-Kasutatakse näiteks rakendustes, kus on oluline säilitada optimaalne otsingukiirus suurtel andmekogudel.
+
+Punane-Must puu
+
+-Sobib rakendustes, kus sagedased andmete sisestamise ja kustutamise operatsioonid on vajalikud.
+
+-Näiteks kasutatakse seda MySQL-i indeksites, kuna see võimaldab kiiret andmete haldamist.

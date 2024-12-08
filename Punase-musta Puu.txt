@@ -1,0 +1,31 @@
+Punase-Musta Puu (Red-Black Tree) teoreetiline ülevaade
+
+1. Punase-musta puu olemus
+
+-Punane-must puu on binaarne otsingupuu, mis kasutab tasakaalu säilitamiseks lisareegleid. Need reeglid tagavad, et puu ei muutu kunagi liiga tasakaalustamata.
+
+-Selle struktuuri eripäraks on sõlmede "värv" — iga sõlm on kas punane või must.
+
+2. Reeglid
+
+-Igal sõlmel on värv: punane või must.
+
+-Juursõlm on alati must.
+
+-Punase sõlme vanem ja järglased ei saa olla punased (ühtlasi keelatakse punase-punase konflikt).
+
+-Iga tee sõlmest leheni sisaldab sama arvu musti sõlmi.
+
+-Kõik lehed (null-sõlmed) on mustad.
+
+3. Ajakompleksus
+
+-Punase-musta puu otsingu, lisamise ja kustutamise operatsioonide ajakompleksus on alati O(log n).
+
+-Võrreldes tavalise binaarse otsingupuuga (mis halvimal juhul muutub tasakaalustamata ja O(n) keerukusega), tagavad punase-musta puu reeglid alati tasakaalu ja seeläbi efektiivsuse.
+
+4. Eelised
+
+-Tasakaalustatud struktuuri tõttu sobib punane-must puu suurepäraselt andmestruktuurideks, mis vajavad sagedasi otsingu- ja sisestamistoiminguid.
+
+-Tänu rangele tasakaalule on see märkimisväärselt kiirem kui tavaline binaarne otsingupuu.
