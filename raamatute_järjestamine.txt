@@ -1,0 +1,5 @@
+Kui on antud raamaturiiuli pikkus ja raamatud on visuaalselt hinnatavad, saab kontrollida, kas need on õigesti sorteeritud järgmiselt:
+Oletame, et raamatud on esitatud nimekirjana. Sorteerimisalgoritm toimib nii, et kõigepealt võrreldakse kaht esimest elementi. 
+Kui esimene raamat on suurem kui teine, vahetatakse nende kohad. Kui esimene on väiksem või võrdne, siis midagi ei muutu. 
+See protsess jätkub kuni nimekirja lõpuni. Kui algoritm jõuab lõppu, alustatakse otsast uuesti. 
+Seda tsüklit korratakse seni, kuni kõik raamatud on õiges järjestuses, kas väiksemast suuremani või vastupidi.
