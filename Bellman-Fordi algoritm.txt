@@ -1,0 +1,8 @@
+Bellman-Fordi algoritm on meetod lühima tee leidmiseks kaalutud graafides, kus võib esineda ka negatiivse kaaluga kaari. 
+Erinevalt Dijkstra algoritmist kordab Bellman-Ford graafi kõiki kaari korduvalt (tippude arv miinus üks kord), tagades seeläbi korrektse lahenduse ka negatiivsete kaalude korral. 
+Algoritm sobib hästi olukordadesse, kus graafis võib esineda negatiivse kaaluga teid, kuid mitte negatiivseid tsükleid.
+
+Bellman-Fordi algoritm tuvastab negatiivsed tsüklid, võrreldes pärast viimast iteratsiooni kaarte uuesti. 
+Kui mõne kaare kaudu leidub lühem tee, tähendab see negatiivse tsükli olemasolu. 
+Negatiivsete tsüklite tuvastamine on praktiliselt tähtis, näiteks finantsvõrgustikes ja optimeerimisprobleemides, kus tsüklid võivad viidata süsteemi anomaaliatele või kasumivõimalustele. 
+Algoritm on aga Dijkstra meetodist aeglasem, mistõttu sobib see väiksemate või spetsiifiliste graafide jaoks.

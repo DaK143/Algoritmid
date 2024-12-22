@@ -1,0 +1,6 @@
+Graafide värvimise probleem seisneb tippude värvimises nii, et kaks külgnevat tippu ei saaks sama värvi, kasutades minimaalset arvu värve. 
+Probleem on oluline arvutiteaduses, kuna see modelleerib paljusid reaalmaailma olukordi, kus tuleb vältida konfliktide tekkimist piiratud ressursside korral.
+
+Graafide värvimist saab kasutada ressursside jaotamiseks, näiteks eksamigraafikute koostamisel, kus üliõpilased, kes osalevad samades eksamites, ei saa neid samal ajal teha. 
+Samuti sobib see konflikti vältimiseks raadiosageduste jaotamisel, kus külgnevad alad ei saa kasutada sama sagedust, vältimaks segamist. 
+Graafide värvimine on kasulik ka registrite jaotamisel kompilaatorites ning meeskondade koostamisel, et vältida vastuolulisi kombinatsioone.

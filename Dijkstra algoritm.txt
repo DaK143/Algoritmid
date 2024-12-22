@@ -1,0 +1,7 @@
+Dijkstra algoritm on graafiteoorias kasutatav meetod lühima tee leidmiseks algustipust kõigisse teistesse tippudesse kaalutud graafis. 
+See töötab, hoides järge seni leitud lühimatest teedest ning laiendades neid järk-järgult naabertippudele, kasutades prioriteetset andmestruktuuri, näiteks min-kuhja. 
+Algoritm sobib hästi graafide jaoks, kus kaared on mitte-negatiivse kaaluga.
+
+Dijkstra algoritm on eriti efektiivne tihedates graafides, kus on palju ühendusi, või juhtudel, kui kasutatakse andmestruktuure nagu Fibonacci kuhja, mis kiirendavad selle töökiirust. 
+See on ebaefektiivne, kui graafis on negatiivse kaaluga kaari, kuna algoritm ei arvesta nende mõjuga õigesti. 
+Lisaks võib see osutuda ressursikulukaks väga suurte ja hõredate graafide puhul, eriti kui eesmärgiks on lühim tee ainult kahe tipu vahel.
